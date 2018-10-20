@@ -1,0 +1,179 @@
+/**
+* Remove default margin.
+*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, Tahoma, sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  margin: 0 auto;
+  color: #333;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+input[type="botton"]{
+  -webkit-appearance:none;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input[type="search"]{
+  -webkit-appearance: textfield;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 000px 1000px whiteinset;
+}
+
+.nowrap{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nowrap-hide{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.nowra-clamp-one{
+  -webkit-line-clamp: 1;
+}
+
+
+#main {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+
+  h1 {
+    line-height: 100px;
+    color: #d3483e;
+  }
+
+  img {
+    width: 150px;
+  }
+}
+
+
+#main {
+  background: #fff;
+}
+@import "applerepair.css";
+.carousel-control-prev-icon {
+  background-image: url("../images/slideshow/arrow-left-solid.svg") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../images/slideshow/arrow-right-solid.svg") !important;
+}
+.carousel-c aption {
+  color: #0d0d0d !important;
+}
+
+/* icons
+-------------------------------------------------- */
+
+.w-iconbox-icon{
+  box-shadow: 0 0 0 2px #ec3237 inset;
+  //max-height: 6rem;
+}
+ .w-iconbox-icon i{
+  position: relative;
+}
+.w-iconbox-icon i {
+  vertical-align: top;
+  line-height: inherit;}
+.fa, .fas {
+  font-family: 'fontawesome';
+  font-weight: 900;
+}
+.w-iconbox-icon{
+  box-shadow: 0 0 0 2px #ec3237 inset;}
+ .w-iconbox-icon{
+  color: #ec3237;
+}
+.w-iconbox-icon {
+  line-height: 96px;
+  height: 96px;
+  width:96px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+margin: 0 auto 0.8rem auto;
+  z-index: 1;
+  transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+}
+.w-iconbox-icon:hover{
+  background: #ec3237;
+  i{
+    color:#fff;}
+  //border: ;
+ }
+.w-iconbox-icon i {
+  position: relative;
+}
+.w-iconbox-icon i {
+  //vertical-align: top;
+  line-height: inherit;
+}
+.fa, .fas {
+  font-family: 'fontawesome';
+  font-weight: 900;
+}
+.w-iconbox-link {
+  display: block;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: inherit;
+  transition: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+.footer_color{
+  color: white !important;
+}
