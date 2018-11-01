@@ -1,1 +1,281 @@
-@charset "UTF-8";.navbar-brand{margin-right:0;margin-left:64px;margin-left:4rem;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.navbar-brand{font-size:32px!important;font-size:2rem!important}.carousel{width:100%;margin-bottom:64px;margin-bottom:4rem}.carousel-caption{bottom:48px;bottom:3rem;z-index:10}.carousel-item{height:512px;height:32rem;background-color:#777}.carousel-item>img{position:absolute;top:0;left:0;min-width:100%;height:512px;height:32rem}.marketing .col-lg-4{margin-bottom:24px;margin-bottom:1.5rem;text-align:center}.marketing h2{font-weight:400}.marketing .col-lg-4 p{margin-right:12px;margin-right:.75rem;margin-left:12px;margin-left:.75rem}.featurette-divider{margin:80px 0;margin:5rem 0}.featurette-heading{font-weight:300;line-height:1;letter-spacing:-0.8px;letter-spacing:-.05rem}blockquote,body,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,li,ol,p,pre,td,th,ul{border:0;margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}body{font-family:Helvetica,Arial,Tahoma,sans-serif;font-size:14px;overflow-x:hidden;-webkit-overflow-scrolling:touch;width:100%;margin:0 auto;color:#333}li,ul{list-style:none}a{text-decoration:none}img{vertical-align:middle;border:0}input[type=botton]{-webkit-appearance:none}input:focus::-webkit-input-placeholder{color:transparent}input[type=search]{-webkit-appearance:textfield}input:-webkit-autofill{-webkit-box-shadow:000px 1000px whiteinset}.nowrap{overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis}.nowrap-hide{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-o-text-overflow:ellipsis;text-overflow:ellipsis;word-break:break-all}.nowra-clamp-one{-webkit-line-clamp:1}#main{width:100%;margin:50px auto;text-align:center}#main h1{line-height:100px;color:#d3483e}#main img{width:150px}#main{background:#fff}.carousel-control-prev-icon{background-image:url(../images/slideshow/arrow-left-solid.svg)!important}.carousel-control-next-icon{background-image:url(../images/slideshow/arrow-right-solid.svg)!important}.carousel-c aption{color:#0d0d0d!important}.w-iconbox-icon{-webkit-box-shadow:0 0 0 2px #ec3237 inset;box-shadow:0 0 0 2px #ec3237 inset}.w-iconbox-icon i{position:relative}.w-iconbox-icon i{vertical-align:top;line-height:inherit}.fa,.fas{font-family:fontawesome;font-weight:900}.w-iconbox-icon{-webkit-box-shadow:0 0 0 2px #ec3237 inset;box-shadow:0 0 0 2px #ec3237 inset}.w-iconbox-icon{color:#ec3237}.w-iconbox-icon{line-height:96px;height:96px;width:96px;overflow:hidden;border-radius:50%;text-align:center;margin:0 auto 12.8px auto;margin:0 auto .8rem auto;z-index:1;-webkit-transition:background-color .5s,color .5s,-webkit-box-shadow .5s;transition:background-color .5s,color .5s,-webkit-box-shadow .5s;-o-transition:background-color .5s,color .5s,box-shadow .5s;transition:background-color .5s,color .5s,box-shadow .5s;transition:background-color .5s,color .5s,box-shadow .5s,-webkit-box-shadow .5s}.w-iconbox-icon:hover{background:#ec3237}.w-iconbox-icon:hover i{color:#fff}.w-iconbox-icon i{position:relative}.w-iconbox-icon i{line-height:inherit}.fa,.fas{font-family:fontawesome;font-weight:900}.w-iconbox-link{display:block;-ms-flex-negative:0;flex-shrink:0;color:inherit;-webkit-transition:none;-o-transition:none;transition:none;-webkit-tap-highlight-color:transparent}.footer_color{color:#fff!important}@media (min-width:40em){.carousel-caption p{margin-bottom:1.25rem;font-size:1.25rem;line-height:1.4;color:#000!important}.featurette-heading{font-size:50px}}@media (min-width:62em){.featurette-heading{margin-top:7rem}}
+@charset "UTF-8";
+/**
+* Remove default margin.
+*/
+.navbar-brand{
+  margin-right: 0;
+  margin-left: 64px;
+  margin-left: 4rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.navbar-brand {
+  font-size: 32px !important;
+  font-size: 2rem !important;
+}
+/*CAROUSEL*/
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  /*width: 1162px;*/
+  margin: 0 auto;
+  margin-bottom: 64px;
+  margin-bottom: 4rem;
+  /*position: absolute !important;*/
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 48px;
+  bottom: 3rem;
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 512px;
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 512px;
+  height: 32rem;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: 12px;
+  margin-right: .75rem;
+  margin-left: 12px;
+  margin-left: .75rem;
+}
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 80px 0;
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.8px;
+  letter-spacing: -.05rem;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* icons
+-------------------------------------------------- */
+.section_name{
+  font-size: 32px !important;
+  font-size: 2rem !important;
+}
+.review_header{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+}
+.review_icon_container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.review_icon{
+  display: inline-block;
+  font-size: 44.8px;
+  font-size: 2.8rem;
+  color: #ec3237 !important;
+}
+.branch_brief{
+  margin-bottom: 30px;
+}
+.branch_img{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*.slider_img{*/
+/*max-width:1162px;*/
+/*}*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+body {
+  font-family: Helvetica, Arial, Tahoma, sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  margin: 0 auto;
+  color: #333; }
+ul, li {
+  list-style: none; }
+a {
+  text-decoration: none; }
+img {
+  vertical-align: middle;
+  border: 0; }
+input[type="botton"] {
+  -webkit-appearance: none; }
+input:focus::-webkit-input-placeholder {
+  color: transparent; }
+input[type="search"] {
+  -webkit-appearance: textfield; }
+input:-webkit-autofill {
+  -webkit-box-shadow: 000px 1000px whiteinset; }
+.nowrap {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis; }
+.nowrap-hide {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  word-break:  break-all; }
+.nowra-clamp-one {
+  -webkit-line-clamp: 1; }
+#main {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center; }
+#main h1 {
+    line-height: 100px;
+    color: #d3483e; }
+#main img {
+    width: 150px; }
+#main {
+  background: #fff; }
+.carousel-control-prev-icon {
+  background-image: url("../images/slideshow/arrow-left-solid.svg") !important; }
+.carousel-control-next-icon {
+  background-image: url("../images/slideshow/arrow-right-solid.svg") !important; }
+.carousel-c aption {
+  color: #0d0d0d !important; }
+/* icons
+-------------------------------------------------- */
+.w-iconbox-icon {
+  -webkit-box-shadow: 0 0 0 2px #ec3237 inset;
+          box-shadow: 0 0 0 2px #ec3237 inset; }
+.w-iconbox-icon i {
+  position: relative; }
+.w-iconbox-icon i {
+  vertical-align: top;
+  line-height: inherit; }
+.fa, .fas {
+  font-family: 'fontawesome';
+  font-weight: 900; }
+.w-iconbox-icon {
+  -webkit-box-shadow: 0 0 0 2px #ec3237 inset;
+          box-shadow: 0 0 0 2px #ec3237 inset; }
+.w-iconbox-icon {
+  color: #ec3237; }
+.w-iconbox-icon {
+  line-height: 96px;
+  height: 96px;
+  width: 96px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto 12.8px auto;
+  margin: 0 auto 0.8rem auto;
+  z-index: 1;
+  -webkit-transition: background-color 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
+  transition: background-color 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
+  -o-transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  transition: background-color 0.5s, color 0.5s, box-shadow 0.5s, -webkit-box-shadow 0.5s; }
+.w-iconbox-icon:hover {
+  background: #ec3237; }
+.w-iconbox-icon:hover i {
+    color: #fff; }
+.w-iconbox-icon i {
+  position: relative; }
+.w-iconbox-icon i {
+  line-height: inherit; }
+.fa, .fas {
+  font-family: 'fontawesome';
+  font-weight: 900; }
+.w-iconbox-link {
+  display: block;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  color: inherit;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+.footer_color {
+  color: white !important; }
+@media (min-width: 40em) {
+/* Bump up size of carousel content */
+.carousel-caption p {
+margin-bottom: 1.25rem;
+font-size: 1.25rem;
+line-height: 1.4;
+    color: #000 !important;
+}
+.featurette-heading {
+font-size: 50px;
+}
+}
+@media (min-width: 62em) {
+.featurette-heading {
+margin-top: 7rem;
+}
+}

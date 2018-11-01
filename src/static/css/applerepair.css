@@ -13,7 +13,8 @@
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
-  width: 100%;
+  /*width: 1162px;*/
+  margin: 0 auto;
   margin-bottom: 4rem;
   /*position: absolute !important;*/
 }
@@ -82,3 +83,36 @@ margin-top: 7rem;
 }
 /* icons
 -------------------------------------------------- */
+
+
+.section_name{
+  font-size: 2rem !important;
+}
+
+.review_header{
+display: flex; align-items: center;
+}
+.review_icon_container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.review_icon{
+  display: inline-block;
+  font-size: 2.8rem;
+  color: #ec3237 !important;
+}
+
+.branch_brief{
+  margin-bottom: 30px;
+}
+.branch_img{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+/*.slider_img{*/
+  /*max-width:1162px;*/
+/*}*/

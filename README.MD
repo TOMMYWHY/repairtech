@@ -4,11 +4,18 @@
 #### 为repairtech 制作单页面宣传网站。附带邮件转发功能。
 
 ```$xslt
+测试站：
+aws： tommy2018 -- applerepair
+ftp：applerepair
+```
+
+```$xslt
 心得体会：
 空项目雏形完善。对于sass运用有待加强。
 配合php 实现邮件转发，部署测试服务器需要安装sendmail
 
 ```
+
 
 ## 项目启动
 ```

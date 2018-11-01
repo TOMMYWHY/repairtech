@@ -1,1 +1,42 @@
-"use strict";var Zepto=function(){var t,n={};function o(t){for(var n=t.length,o=0;o<n;o++)this[o]=t[o];this.length=t.length}return n.Z=function(t){return new o(t)},n.init=function(t){return n.Z(["domObj1","domObj2","domObj3"])},(t=function(){return n.init()}).fn={constructor:n.Z,method:function(){return this}},n.Z.prototype=o.prototype=t.fn,t}();window.Zepto=Zepto,void 0===window.$&&(window.$=Zepto),console.log($().method());
+
+
+var Zepto = (function () {
+  var zepto = {}, $
+
+  function Z(doms) {
+    var len = doms.length 
+    for (var i = 0; i < len; i++) {
+      this[i] = doms[i]
+    }
+    this.length = doms.length
+  }
+
+  zepto.Z = function(doms) {
+    return new Z(doms)
+  }
+
+  zepto.init = function(doms) {
+    var doms = ['domObj1','domObj2','domObj3']
+    return zepto.Z(doms)
+  }
+
+  $ = function() {
+    return zepto.init()
+  }
+
+  $.fn = {
+    constructor: zepto.Z,
+    method: function() {
+      return this
+    }
+  }
+
+  zepto.Z.prototype = Z.prototype = $.fn
+
+  return $
+})()
+
+window.Zepto = Zepto
+window.$ === undefined && (window.$ = Zepto)
+
+console.log($().method());

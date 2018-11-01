@@ -15,7 +15,7 @@ $phone = $_POST['phone'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
 	
-$to = 'tommywhy1989@gmail.com';
+$to = 'support@repairtech.co.nz';
 
 $email_subject = "Website Contact Form:  $name+'_'+$phone";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\Phone: $phone\n\nEmail: $email_address\n\nMessage:\n$message";
