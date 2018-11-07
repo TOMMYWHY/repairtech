@@ -791,8 +791,8 @@ body {
   height: auto;
   min-height: 100vh; }
 .cid-qHDNMmGd65 .navbar {
-  padding: 8px 0;
-  padding: .5rem 0;
+  padding: 24px 0;
+  padding: 1.5rem 0;
   background: #ec3337;
   /*background: #f0f1f3;*/
   -webkit-transition: none;
@@ -1118,7 +1118,8 @@ body {
 .cid-qHDNMmGd65 .dropdown-item:hover {
   color: white !important; }
 .cid-qHDNMncs0L {
-  height: 100vh;
+  /* height: 100vh; */
+  height: 60vh;
   max-width: 1400px;
   margin: 0 auto; }
 .cid-qHDNMncs0L .mbr-text,
@@ -1646,8 +1647,8 @@ body {
 .cid-qHDNMnKg6Z P {
   color: white; }
 .cid-qHDNMmGd65 .navbar {
-  padding: 8px 0;
-  padding: .5rem 0;
+  padding: 24px 0;
+  padding: 1.5rem 0;
   /*background: #333333;*/
   background: #ec3337;
   -webkit-transition: none;
